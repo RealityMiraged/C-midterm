@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int multiply(int a, int b) {
+    return a * b;    // abrunebs am 2 cvladis namravls
+}
+
+double multiply(double a, double b) {
+    return a * b;     // aseve abrunebs am ori cvladis namravls, magram aq iyenebs doubles
+}
+
+int main() {
+    cout << multiply(5, 3) << endl;  // iyenebs pirvel funqcias, romelshic aris int radgan mteli ricxvebia
+    cout << multiply(5.5, 3.2) << endl;  // aq jer amowmebs tu sheudzlia pirvelis gamoyeneba, da tu ver iyenebs, gadadis meoreze sadac aris double (wiladebi)
+    return 0;
+    
+	}
