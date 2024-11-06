@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+   pair<int,float> elements;
+   elements.first=5;
+   elements.second=10;
+   cout<<elements.first<< " "<<elements.second<<endl;
+   return 0;
+}
