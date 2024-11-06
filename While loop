@@ -1,0 +1,5 @@
+int friends = 5;
+while (friends > 0) {
+    cout << "Give candy to friend " << friends << endl;
+    friends--;  // Reduce the number of friends left
+}
