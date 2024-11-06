@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	int N;
+	cout << "enter your digit"; //enter the digit
+	cin >> N; 
+	
+	if (N >= 0 && N <= 30000){
+		int hours= N/3600; //hours, n divided by 3600 hense 1 hour has 36000 seconds in it
+		int minutes= (N%3600)/60; //after getting hours, % gives us ONLY remainders, so for example if we 61/10 we get 6 but if we 61&%10 we get 1
+		int seconds= N%60; //remainers devided by 60 gives us the seconds
+		
+		cout << hours << ":" << minutes << ":" << seconds << endl;
+		return 0;
+	}
+}
