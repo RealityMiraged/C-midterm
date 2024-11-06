@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int A, B; //A = LITERS B= FISHES
+    cin >> A >> B;
+
+   //A>=B*3 SINCE B IS THE FISH AND A IS 3X SINCE 1 FISH = 3X WATER
+    if (A >= B * 3) {
+        cout << "NO" << endl;  //its enough
+    } else {
+        // how many fishes need to be removed
+        int fishToMove = (B * 3 - A + 2) / 3;  // Adding 2 ensures correct rounding up
+        cout << "YES " << fishToMove << endl;  // Print "YES" and the number of fish to move
+    }
+
+    return 0;
+}
