@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	int toys;
+	cin >> toys;
+	while(toys>0){
+		cout<<"put da egg in"<<endl;
+		toys--;
+	}
+}
